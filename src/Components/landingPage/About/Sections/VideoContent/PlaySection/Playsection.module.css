@@ -1,0 +1,109 @@
+.playsection {
+  text-align: center;
+  margin: 60px 0 30px 0;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 70px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.imgContainer img {
+  width: 350px;
+  height: 400px;
+}
+
+.whySwoop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.whySwoopImg {
+  width: min(650px, 90%);
+}
+
+.whySwoopImg img {
+  width: 100%;
+}
+
+.whySwoopInfo {
+  background: linear-gradient(
+    89.95deg,
+    #59098a 0.05%,
+    rgba(89, 9, 138, 0) 99.96%
+  );
+  border-radius: 40px;
+  width: min(600px, 85%);
+  padding: 40px 20px;
+}
+
+.infoHeader {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.infoC {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 30px;
+  background: linear-gradient(
+    90deg,
+    #00defd 2.44%,
+    #00ecfe 20.68%,
+    #99fef3 38.43%,
+    #ffdb6d 58.15%,
+    #feb741 77.87%,
+    #f78100 95.62%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+.benefits > div {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 800px){
+    .whySwoopInfo{
+        text-align: left;
+    }
+
+    .infoHeader{
+        font-size: 50px;
+        line-height: 68px;
+    }
+
+    .infoC{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .benefits>div{
+        font-size: 26px;
+        line-height: 36px;
+    }
+}

@@ -1,0 +1,29 @@
+html, body, *{
+    font-family: 'Manrope', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.App>div>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .flag-dropdown, .selected-flag{
+    border-top-left-radius: 40px !important;
+    border-bottom-left-radius: 40px !important;
+  }
+
+  .selected-flag{
+    width: 45px;
+  }
+
+  .react-tel-input{
+    width: unset !important;
+  }
