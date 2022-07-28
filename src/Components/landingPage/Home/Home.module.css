@@ -1,12 +1,12 @@
 .home {
-  background: url("../../../assets/images/SHome.png") no-repeat center center
-    fixed;
+  background: url("../../../assets/images/SHome.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 600px;
+  min-height: 650px;
   position: relative;
+  padding-top: 30px;
 }
 
 .homeContainer{

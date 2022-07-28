@@ -1,12 +1,14 @@
 .about {
   background: url("../../../assets/images/AboutBackground.png") no-repeat center
-    center fixed;
+    center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-height: 600px;
   padding: 60px 0;
+  position: relative;
+  top: -10px;
 }
 
 .aboutContainer{
