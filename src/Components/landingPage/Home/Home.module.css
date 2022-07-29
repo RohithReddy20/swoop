@@ -115,7 +115,7 @@
   row-gap: 30px;
   padding: 15px 0;
   position: absolute;
-  bottom: 0;
+  bottom: -15px;
 }
 
 .homeFooter>div{
@@ -130,7 +130,8 @@
 
 @media screen and (max-width: 1050px) {
   .homeFooter{
-    position: unset;
+    position: relative;
+    top: 15px;
   }
 }
 
