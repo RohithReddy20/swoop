@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-      <Route exact path="/landingPage" element={<LandingPagePage />} /> 
+      <Route exact path="/" element={<LandingPagePage />} /> 
       </Routes>
     </div>
   );
